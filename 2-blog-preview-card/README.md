@@ -1,2 +1,5 @@
 # Frontend Mentor - Blog preview card
-Link do deploy: https://2-blog-preview-card-5p9hsudjt-pedro-poliszuks-projects.vercel.app/
+
+![Design preview for the Blog preview card coding challenge](./design/desktop-design.jpg)
+
+## Link do deploy: https://2-blog-preview-card-inky.vercel.app/
