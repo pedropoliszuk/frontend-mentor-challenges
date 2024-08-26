@@ -1,35 +1,5 @@
-# blog-preview-card
+# Frontend Mentor - Blog preview card
 
-This template should help get you started developing with Vue 3 in Vite.
+![Design preview for the Blog preview card coding challenge](./design/desktop-design.jpg)
 
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+## Link do deploy: https://2-blog-preview-card-inky.vercel.app/
