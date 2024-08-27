@@ -92,9 +92,15 @@
 
 .social__links a {
   text-decoration: none;
+  color: inherit;
 }
 
 .social__links a:visited {
+  color: inherit;
+}
+
+.social__links a:hover,
+.social__links a:focus {
   color: inherit;
   text-decoration: none;
 }
