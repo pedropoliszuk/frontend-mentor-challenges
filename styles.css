@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --white: hsl(0, 0%, 100%);
+    --egshell: hsl(30, 54%, 90%);
+    --light-peach: hsl(30, 18%, 87%);
+    --dark-taupe: hsl(30, 10%, 34%);
+    --charcoal-brown: hsl(24, 5%, 18%);
+    --rust-brown: hsl(14, 45%, 36%);
+    --dark-raspberry: hsl(332, 51%, 32%);
+    --pale-pink: hsl(330, 100%, 98%);
+}
+
+body {
+    background-color: var(--egshell);
+    font-family: 'Outfit', sans-serif;
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+}
+
+main {
+    background-color: var(--white);
+    width: 70ch;
+    padding-inline: 32px;
+    border-radius: 16px;
+}
+
+img {
+    width: 100%;
+    border-radius: 16px;
+}
+
+.section, img {
+    margin-bottom: 32px;
+}
+
+.section {
+    padding-inline: 32px;
+    color: var(--dark-taupe);
+}
+
+h1, h2 {
+    font-family: 'Young Serif', sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+    color: var(--charcoal-brown);
+    padding-bottom: 16px;
+}
+
+h2 {
+    font-size: 32px;
+    color: var(--rust-brown);
+    margin-bottom: 16px;
+}
+
+.section__preparation {
+    background-color: var(--pale-pink);
+    padding: 16px;
+    padding-left: 50px;
+    border-radius: 16px;
+
+    span {
+        color: var(--dark-raspberry);
+        font-weight: bold;
+        font-size: 22px;
+        margin-bottom: 40px;
+    }
+
+    ul {
+        margin-left: 28px;
+    }
+}
+
+::marker {
+    color: var(--rust-brown);
+    font-weight: bold;
+}
+
+.section ul, ol {
+    padding: 0 8px;
+    margin-bottom: 28px;
+}
+
+.section li {
+    padding: 10px;
+}
+
+.section__ingredients, .section__instructions, td {
+    border-bottom: 1px solid var(--light-peach);
+}
+
+table {
+    width: 100%;
+    margin-top: 16px;
+}
+
+td {
+    padding: 16px;
+}
+
+.nutritional__unit {
+    font-weight: bold;
+    color: var(--rust-brown);
+}
+
+@media screen and (min-width: 640px) {
+    body {
+        padding: 128px;
+    }
+
+    img {
+        border-radius: 12px;
+    }
+
+    .container__image {
+        padding-top: 36px;
+    }
+}
+
+@media screen and (max-width: 639px) {
+    main {
+        width: 100%;
+    }
+}
